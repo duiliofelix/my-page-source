@@ -1,12 +1,12 @@
 import { hot } from 'react-hot-loader';
 import React from 'react';
-import './App.css';
+import { BrowserRouter } from 'react-router-dom';
+import PublicRouter from './components/routes/PublicRouter';
 
-const message = 'Welcome to my-github-page';
 const App = () => (
-  <div className="App">
-    <h1>{message}</h1>
-  </div>
+  <BrowserRouter>
+    <PublicRouter />
+  </BrowserRouter>
 );
 
 export default hot(module)(App);
