@@ -15,7 +15,8 @@
     "react": "^16",
     "react-dom": "^16",
     "react-hot-loader": "^4",
-    "react-router-dom": "^5.1.2",
+    "react-router": "^6.0.0-alpha.1",
+    "react-router-dom": "^6.0.0-alpha.1",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {

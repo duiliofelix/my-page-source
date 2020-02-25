@@ -1,11 +1,39 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import styled from 'styled-components';
+import Card from '../atoms/Card';
+
+const Container = styled.div`
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 10px;
+`;
 
 const Home = () => (
-  <div>
-    <h1>Home</h1>
-    <Link to="/projects">Projects</Link>
-  </div>
+  <Container>
+    <Card>
+      <div>
+        Foto
+      </div>
+      <span>
+        Duilio Felix
+      </span>
+      Profissao
+    </Card>
+    <div>
+      <Card>
+        Conhecimentos
+      </Card>
+      <Card>
+        Experiencia
+      </Card>
+      <Card>
+        Resumo
+      </Card>
+      <Card>
+        Contato
+      </Card>
+    </div>
+  </Container>
 );
 
 export default Home;
